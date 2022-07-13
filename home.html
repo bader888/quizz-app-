@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- add fivicon for webSite -->
+    <link rel="icon" type="image/x-icon" href="fiviconpng.png">
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="withAll.css">
+
+</head>
+
+<body>
+    <main>
+        <!-- start Game -->
+        <div class="container grid">
+            <div class="main flex">
+                <h1>quizz game</h1>
+                <button onclick="down()" class="play">play Game</button>
+                <!-- <button class="hightScore">high scores</button> -->
+            </div>
+        </div>
+
+        <!-- qusitions -->
+        <div class="container grid hideallquestion" id="question">
+            <div class="main flex">
+                <div class="header flex">
+                    <p>Question <span class="qnumber">1/5</span></p>
+                    <p>Score <span class="score">0</span></p>
+                </div>
+                <div class="question">
+                    <p></p>
+                </div>
+                <div class="answer flex">
+                    <!-- <span data-asnwer="one">A:one</span>
+                    <span data-asnwer="two">B:two</span>
+                    <span data-asnwer="three">C:three</span>
+                    <span data-asnwer="four">D:four</span>
+                    <span data-asnwer="five">k:five</span> -->
+                </div>
+                <button onclick="nextQues()" class="nextbtn">next</button>
+            </div>
+        </div>
+
+        <!-- end the game -->
+        <div class="container grid end" id="end">
+            <div class="main flex">
+                <div class="yourScore">
+                    <h2 id="yourScore"></h2>
+                </div>
+                <h1>end the game</h1>
+                <!-- <input id="text" type="text" placeholder="your name"> -->
+                <!-- <button onclick="saveName()" id="save">save</button> -->
+                <button onclick=" Again()" id="playAgain">play Again</button>
+            </div>
+        </div>
+    </main>
+    <!-- high score in the game -->
+
+
+
+
+
+    <!-- C:\Users\bader haider\Desktop\coding\porojectsFormNet\quizApp\questions\main.html -->
+
+
+    <script src="home.js"></script>
+</body>
+
+</html>

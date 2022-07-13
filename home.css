@@ -1,0 +1,128 @@
+/* ----------------- */
+/* start */
+/* ----------------- */
+
+.main {
+    gap: 40px;
+}
+
+.hg {
+    height: 1600px;
+}
+
+h1 {
+    letter-spacing: var(--ls-letter);
+    word-spacing: var(--ls-word);
+    color: var(--clr-white);
+    font-size: var(--fs-header);
+    border-bottom: 1px solid var(--clr-red);
+}
+
+
+
+
+
+/* ----------------- */
+/* question */
+/* ----------------- */
+.header {
+    flex-direction: column;
+    gap: 3px !important;
+    color: var(--clr-white);
+}
+
+.question {
+    color: var(--clr-white);
+    text-transform: uppercase;
+    letter-spacing: var(--ls-letter);
+    font-size: var(--fs-quesition);
+    padding: 20px 5px;
+    border-radius: 10px;
+    border-bottom: 1px solid var(--clr-red);
+    border-top: 1px solid var(--clr-red);
+    box-shadow: 0px 3px 4px black;
+    text-align: center;
+}
+
+.answer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px !important;
+    color: var(--clr-white);
+}
+
+.answer span {
+    width: 100%;
+    text-align: center;
+    background: var(--clr-Dmeddle);
+    padding: 10px 5px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px black;
+    cursor: pointer;
+}
+
+.answer span:hover {
+    opacity: 0.5;
+}
+
+.true {
+    background-color: var(--clr-green) !important;
+}
+
+.false {
+    background-color: var(--clr-red) !important;
+}
+
+
+.hide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* ----------------- */
+/* question */
+/* ----------------- */
+input {
+    font-size: var(--fs-aswer);
+    font-size: var(--fs-aswer);
+    letter-spacing: var(--ls-letter);
+    background: var(--clr-Dmeddle);
+    color: var(--clr-white);
+    text-transform: capitalize;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+/* ------------------------------*/
+/* hide and show the question*/
+/* ---------------------------- */
+
+.hideallquestion {
+    display: none !important;
+}
+
+.end {
+    display: none !important;
+}
+
+.yourScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#yourScore {
+    background: var(--clr-red);
+    color: var(--clr-white);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
